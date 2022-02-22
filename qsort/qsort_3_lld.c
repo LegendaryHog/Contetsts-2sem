@@ -9,6 +9,7 @@ int main (void)
     scanf ("%d", &size);
     long long* data = (long long*) calloc (size, sizeof (long long));
     for (int i = 0; i < size; i++)
+    
     {
         scanf ("%lld", data + i);
     }
