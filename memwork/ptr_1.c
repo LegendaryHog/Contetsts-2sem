@@ -1,0 +1,1 @@
+p = (int*) calloc (4, sizeof (int));
