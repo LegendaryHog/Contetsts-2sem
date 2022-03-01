@@ -36,8 +36,6 @@ int main (void)
     return 0;
 }
 
-#include <assert.h>
-
 void add (const Decimal* a, const Decimal* b, Decimal* res)
 {
     unsigned max_sz = 0;

@@ -60,7 +60,7 @@ Decimal* add (const Decimal* a, const Decimal* b)
         max_sz = b->size + 1;
     }
 
-    res->a = (char*) calloc  (max_sz, sizeof (char));
+    res->a  = (char*) calloc  (max_sz, sizeof (char));
 
     acpy->a = (char*) calloc (max_sz, sizeof (char));
     for (unsigned i = 0; i <= a->n; i++)
